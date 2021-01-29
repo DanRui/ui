@@ -15,7 +15,7 @@ export class API {
     return this.request<T>(url, 'DELETE', body)
   }
 
-  private static BASE_URL = 'http://localhost:8080/api'
+  private static BASE_URL = 'http://localhost:8088/api'
 
   private static async request<T>(
     url: string,
